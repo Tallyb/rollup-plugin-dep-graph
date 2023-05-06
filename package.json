@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "type": "module",
-  "repository": "tallyb/rollup-plugin-dep-graph",
+  "repository": "https://github.com/Tallyb/rollup-plugin-dep-graph",
+  "author": "tally.barak@gmail.com",
+  "issues": "https://github.com/Tallyb/rollup-plugin-dep-graph/issues",
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "jest --passWithNoTests",
@@ -17,7 +19,6 @@
     "dependency",
     "graph"
   ],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "graphlib": "^2.1.8"
